@@ -1,10 +1,10 @@
 [package]
 name = "microservice-comparison-rust"
-version = "0.0.0"
+version = "0.0.1"
 authors = ["Stephen Solka <stephen0q@gmail.com>"]
 
 [dependencies]
-reqwest = "0.8.8"
-json = "0.11.3"
-actix-web = "0.7.3"
-futures = "0.1.23"
+reqwest = "0.11.10"
+json = "0.12.4"
+actix-web = "4.0.1"
+futures = "0.3.21"
