@@ -1,8 +1,9 @@
 module github.com/trashhalo/microservice-comparison-go
 
+require github.com/labstack/echo v3.3.10+incompatible
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/labstack/echo v3.2.1+incompatible
 	github.com/labstack/gommon v0.2.1 // indirect
 	github.com/mattn/go-colorable v0.0.9 // indirect
 	github.com/mattn/go-isatty v0.0.3 // indirect
