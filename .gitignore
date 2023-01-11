@@ -3,3 +3,4 @@ bin/
 obj/
 /csharp/.vs
 *.user
+go/microservice-comparison-go.exe
