@@ -5,6 +5,6 @@ authors = ["Stephen Solka <stephen0q@gmail.com>", "Rafael Teixeira <monoman@gmai
 edition = "2021"
 
 [dependencies]
-reqwest = "0.11.13"
+reqwest = "0.11.14"
 json = "0.12.4"
 actix-web = "4.3.0"
