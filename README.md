@@ -10,3 +10,6 @@ Build a simple microservice in multiple languages to have a solid baseline to co
 
 # Original Medium Post
 https://medium.com/@trashhalo/microservice-comparison-63ed53a47a6c
+
+# My Medium Post
+https://medium.com/p/85b9b26b376f
