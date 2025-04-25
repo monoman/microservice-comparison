@@ -1,6 +1,7 @@
 # Microservice Comparison
-Build a simple microservice in multiple languages to have a solid baseline to compare languages. 
-**Now including C#**
+Build a simple microservice in multiple languages to have a solid baseline to compare languages.
+
+**Now including C# - 04/25/2025 Updated to .NET 9 and yet shorter and with more features**
 
 # What does it do?
 1. Download json data from reddit
