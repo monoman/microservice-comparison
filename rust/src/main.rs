@@ -6,10 +6,15 @@ extern crate reqwest;
 use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer};
 use json::{parse, JsonValue};
 use std::iter::Iterator;
+use reqwest::header::USER_AGENT;
 
 async fn reddit() -> JsonValue {
     let url = "https://www.reddit.com/r/politics/hot.json";
-    let body = reqwest::get(url)
+    let client = reqwest::Client::new();
+    let body = client
+        .get(url)
+        .header(USER_AGENT, "microservice-comparison-rust")
+        .send()
         .await
         .expect("Could not query reddit")
         .text()
