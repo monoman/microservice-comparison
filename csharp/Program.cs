@@ -12,7 +12,7 @@ public class RedditClient : HttpClient
     public RedditClient()
     {
         BaseAddress = new Uri("https://www.reddit.com/");
-        DefaultRequestHeaders.Add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36");
+        DefaultRequestHeaders.Add("user-agent", "microservice-comparison-csharp");
     }
     public record ArticleData(string Title);
     public record Article(ArticleData Data);
