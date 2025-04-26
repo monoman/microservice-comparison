@@ -7,4 +7,4 @@ edition = "2021"
 [dependencies]
 reqwest = "0.11.14"
 json = "0.12.4"
-actix-web = "4.3.0"
+actix-web = "4.10.2"
